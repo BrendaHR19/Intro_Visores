@@ -12,3 +12,11 @@ areas.addEventListener("click",
         calculate_areas();
     }
 )
+
+let centroid_distance = document.getElementById("centroid_distance");
+centroid_distance.addEventListener('click',
+    function(){
+        console.log("Vamos a calcular distancia entre los centroides");
+        calculateDistanceCentroids();
+    }
+)
